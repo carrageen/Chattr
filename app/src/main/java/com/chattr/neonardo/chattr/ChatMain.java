@@ -3,6 +3,7 @@ package com.chattr.neonardo.chattr;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -12,7 +13,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.net.Socket;
 
 public class ChatMain extends AppCompatActivity {
@@ -38,10 +38,11 @@ public class ChatMain extends AppCompatActivity {
             protected Void doInBackground(Void... params) {
                 try {
                     Log.d("test", "TEST CONNECTION1111");
+                    Looper.prepare();
                     socket = new Socket("80.139.144.147", 4269);
+                    Log.d("test", "TEST CONNECTION");
                     client = new Client();
                     client.connect(socket);
-                    Log.d("test", "TEST CONNECTION");
                 } catch (
                         IOException e) {
                     e.printStackTrace();
