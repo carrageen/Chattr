@@ -9,11 +9,18 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.net.Socket;
+
 public class ChatMain extends AppCompatActivity {
 
     TextView chat;
     EditText message;
     boolean doubleBackToExitPressedOnce = false;
+    ObjectOutputStream oos;
+    Socket socket;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +30,27 @@ public class ChatMain extends AppCompatActivity {
         chat = (TextView) findViewById(R.id.chat);
         chat.setMovementMethod(new ScrollingMovementMethod());
         message = (EditText) findViewById(R.id.message);
+
+        try {
+            socket = new Socket("80.169.156.67", 4269);
+            oos = new ObjectOutputStream(socket.getOutputStream());
+            new Thread(new IncomingHandler(socket)).start();
+            chat.append("\n" + getString(R.string.connection_established));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void sendMessage(View v) {
-        chat.append("\n" + getString(R.string.you) + message.getText().toString());
+        try {
+            String msg = message.getText().toString();
+            oos.writeObject(msg);
+            oos.flush();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //chat.append("\n" + getString(R.string.you) + message.getText().toString());
 
         final int scrollAmount = chat.getLayout().getLineTop(chat.getLineCount()) - chat.getHeight();
         if (scrollAmount > 0)
@@ -35,12 +59,8 @@ public class ChatMain extends AppCompatActivity {
             chat.scrollTo(0, 0);
     }
 
-    public void send(View v, String msg){
-        chat.append("\n" + getString(R.string.you) + msg);
-    }
-
-    public String getMessage(){
-        return message.getText().toString();
+    public void displayMessage(String msg){
+        chat.append("\n" + msg);
     }
 
     public void onBackPressed() {
