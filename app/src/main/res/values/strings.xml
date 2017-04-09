@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY appname "Chattr">
+    ]>
+<resources>
+    <string name="app_name">Chattr</string>
+    <string name="start_chat">Match Me!</string>
+    <string name="searching">Searching for strangers.</string>
+    <string name="chat_connection">You\'re now getting connected. https://www.google.com/ </string>
+    <string name="you">You:&#160;</string>
+    <string name="stranger">Stranger:&#160;</string>
+    <string name="defaultMessage">Hey, how are you?</string>
+    <string name="send">Send</string>
+    <string name="backButtonTwice">Press back again to leave.</string>
+    <string name="intro">&appname; is an app which lets you chat and communicate with random strangers in your environment.</string>
+    <string name="connection_established">Connection established&#160;</string>
+    <string name="error_stream">Exception creating new Input/Output streams:&#160;</string>
+</resources>
