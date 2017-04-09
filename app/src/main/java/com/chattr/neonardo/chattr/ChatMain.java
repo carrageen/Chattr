@@ -35,7 +35,7 @@ public class ChatMain extends AppCompatActivity {
             chat.scrollTo(0, 0);
     }
 
-    public void send(View v, String msg){
+    public void send(View v , String msg){
         chat.append("\n" + getString(R.string.you) + msg);
     }
 
