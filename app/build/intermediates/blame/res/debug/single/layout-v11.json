@@ -1,26 +1,26 @@
 [
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Android\\.android\\build-cache\\025b01424f7e14033d8b3a68a7503650953ff13b\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "C:\\Android\\.android\\build-cache\\025b01424f7e14033d8b3a68a7503650953ff13b\\output\\res\\layout-v11\\notification_media_action.xml"
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "C:\\Android\\.android\\build-cache\\025b01424f7e14033d8b3a68a7503650953ff13b\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Android\\.android\\build-cache\\025b01424f7e14033d8b3a68a7503650953ff13b\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "C:\\Android\\.android\\build-cache\\025b01424f7e14033d8b3a68a7503650953ff13b\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Android\\.android\\build-cache\\025b01424f7e14033d8b3a68a7503650953ff13b\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     }
 ]

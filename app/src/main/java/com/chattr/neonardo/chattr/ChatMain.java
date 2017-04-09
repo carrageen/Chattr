@@ -23,7 +23,6 @@ public class ChatMain extends AppCompatActivity {
     Socket socket;
     Client client;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,16 +32,17 @@ public class ChatMain extends AppCompatActivity {
         chat.setMovementMethod(new ScrollingMovementMethod());
         message = (EditText) findViewById(R.id.message);
 
-        new AsyncTask<Void, Void, Void>() {
+        new AsyncTask<ChatMain, Void, Void>() {
             @Override
-            protected Void doInBackground(Void... params) {
+            protected Void doInBackground(ChatMain... cm) {
                 try {
                     Log.d("test", "TEST CONNECTION1111");
                     Looper.prepare();
                     socket = new Socket("80.139.144.147", 4269);
                     Log.d("test", "TEST CONNECTION");
-                    client = new Client();
+                    client = new Client(cm);
                     client.connect(socket);
+                    Log.d("test", "TEST CONNECTION222222");
                 } catch (
                         IOException e) {
                     e.printStackTrace();
@@ -54,7 +54,7 @@ public class ChatMain extends AppCompatActivity {
                 chat.append("\n" + getString(R.string.connection_established));
 
             }
-        }.execute();
+        }.execute(this);
     }
 
     public void sendMessage(View v) {
