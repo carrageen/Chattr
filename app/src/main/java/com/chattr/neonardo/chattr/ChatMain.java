@@ -3,6 +3,7 @@ package com.chattr.neonardo.chattr;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -14,8 +15,6 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-
-import static android.os.Build.VERSION_CODES.M;
 
 public class ChatMain extends AppCompatActivity {
 
@@ -41,7 +40,8 @@ public class ChatMain extends AppCompatActivity {
             protected Void doInBackground(Void... params){
                 try {
                     Log.d("test", "TEST CONNECTION1111");
-                    socket = new Socket("80.169.156.67", 4269);
+                    Looper.prepare();
+                    socket = new Socket("80.139.144.147", 4269);
                     oos = new ObjectOutputStream(socket.getOutputStream());
                     new Thread(new IncomingHandler(socket)).start();
                     Log.d("test", "TEST CONNECTION");
@@ -59,14 +59,21 @@ public class ChatMain extends AppCompatActivity {
     }
 
     public void sendMessage(View v) {
-        try {
             Message nachricht = new Message();
             nachricht.msg = message.getText().toString();
-            oos.writeObject(nachricht);
-            oos.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            new Runnable(){
+                @Override
+                public void run() {
+                    try{
+                        Message nachricht = new Message();
+                        nachricht.msg = message.getText().toString();
+                        oos.writeObject(nachricht);
+                        oos.flush();
+                    }catch (IOException e){
+                        e.printStackTrace();
+                    }
+                }
+            };
 
         //chat.append("\n" + getString(R.string.you) + message.getText().toString());
 
