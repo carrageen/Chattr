@@ -59,12 +59,12 @@ public class ChatMain extends AppCompatActivity {
 
     public void sendMessage(View v) {
 
-        new Runnable() {
+        new Thread() {
             @Override
             public void run() {
                 client.send(message.getText().toString());
             }
-        };
+        }.start();
 
 
         //chat.append("\n" + getString(R.string.you) + message.getText().toString());
