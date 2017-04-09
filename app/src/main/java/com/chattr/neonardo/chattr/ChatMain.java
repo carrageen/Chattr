@@ -1,6 +1,5 @@
 package com.chattr.neonardo.chattr;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -23,6 +22,7 @@ public class ChatMain extends AppCompatActivity {
     boolean doubleBackToExitPressedOnce = false;
     ObjectOutputStream oos;
     Socket socket;
+    Client client;
 
 
     @Override
@@ -35,45 +35,23 @@ public class ChatMain extends AppCompatActivity {
         message = (EditText) findViewById(R.id.message);
 
 
-        new AsyncTask<Void, Void, Void>(){
-            @Override
-            protected Void doInBackground(Void... params){
-                try {
-                    Log.d("test", "TEST CONNECTION1111");
-                    Looper.prepare();
-                    socket = new Socket("80.139.144.147", 4269);
-                    oos = new ObjectOutputStream(socket.getOutputStream());
-                    new Thread(new IncomingHandler(socket)).start();
-                    Log.d("test", "TEST CONNECTION");
+        try {
+            Log.d("test", "TEST CONNECTION1111");
+            socket = new Socket("80.139.144.147", 4269);
+            client = new Client();
+            client.connect(socket);
+            Log.d("test", "TEST CONNECTION");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                return null;
-            }
-            protected void onPostExecute(){
-                chat.append("\n" + getString(R.string.connection_established));
-            }
-        }.execute();
+        chat.append("\n" + getString(R.string.connection_established));
 
     }
 
     public void sendMessage(View v) {
-            Message nachricht = new Message();
-            nachricht.msg = message.getText().toString();
-            new Runnable(){
-                @Override
-                public void run() {
-                    try{
-                        Message nachricht = new Message();
-                        nachricht.msg = message.getText().toString();
-                        oos.writeObject(nachricht);
-                        oos.flush();
-                    }catch (IOException e){
-                        e.printStackTrace();
-                    }
-                }
-            };
+
+        client.send(message.getText().toString());
 
         //chat.append("\n" + getString(R.string.you) + message.getText().toString());
 
@@ -101,6 +79,7 @@ public class ChatMain extends AppCompatActivity {
             @Override
             public void run() {
                 doubleBackToExitPressedOnce = false;
+                client.disconnect();
             }
         }, 2000);
     }
