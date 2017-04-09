@@ -1,9 +1,8 @@
 package com.chattr.neonardo.chattr;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
+import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -32,13 +31,30 @@ public class ChatMain extends AppCompatActivity {
         chat.setMovementMethod(new ScrollingMovementMethod());
         message = (EditText) findViewById(R.id.message);
 
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+
+        StrictMode.setThreadPolicy(policy);
+
+        try {
+            Log.d("test", "TEST CONNECTION1111");
+            socket = new Socket("localhost", 4269);
+            Log.d("test", "TEST CONNECTION");
+            client = new Client(this);
+            client.connect(socket);
+            Log.d("test", "TEST CONNECTION222222");
+        } catch (
+                IOException e) {
+            e.printStackTrace();
+        }
+
+        /*
         new AsyncTask<ChatMain, Void, Void>() {
             @Override
             protected Void doInBackground(ChatMain... cm) {
                 try {
                     Log.d("test", "TEST CONNECTION1111");
                     Looper.prepare();
-                    socket = new Socket("80.139.144.147", 4269);
+                    socket = new Socket("localhost", 4269);
                     Log.d("test", "TEST CONNECTION");
                     client = new Client(cm);
                     client.connect(socket);
@@ -54,8 +70,11 @@ public class ChatMain extends AppCompatActivity {
                 chat.append("\n" + getString(R.string.connection_established));
 
             }
-        }.execute(this);
+        }.execute(this);    */
+
+
     }
+
 
     public void sendMessage(View v) {
 
