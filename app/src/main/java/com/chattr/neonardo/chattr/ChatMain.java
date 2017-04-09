@@ -1,9 +1,11 @@
 package com.chattr.neonardo.chattr;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -12,6 +14,8 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+
+import static android.os.Build.VERSION_CODES.M;
 
 public class ChatMain extends AppCompatActivity {
 
@@ -31,20 +35,34 @@ public class ChatMain extends AppCompatActivity {
         chat.setMovementMethod(new ScrollingMovementMethod());
         message = (EditText) findViewById(R.id.message);
 
-        try {
-            socket = new Socket("80.169.156.67", 4269);
-            oos = new ObjectOutputStream(socket.getOutputStream());
-            new Thread(new IncomingHandler(socket)).start();
-            chat.append("\n" + getString(R.string.connection_established));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+        new AsyncTask<Void, Void, Void>(){
+            @Override
+            protected Void doInBackground(Void... params){
+                try {
+                    Log.d("test", "TEST CONNECTION1111");
+                    socket = new Socket("80.169.156.67", 4269);
+                    oos = new ObjectOutputStream(socket.getOutputStream());
+                    new Thread(new IncomingHandler(socket)).start();
+                    Log.d("test", "TEST CONNECTION");
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+            protected void onPostExecute(){
+                chat.append("\n" + getString(R.string.connection_established));
+            }
+        }.execute();
+
     }
 
     public void sendMessage(View v) {
         try {
-            String msg = message.getText().toString();
-            oos.writeObject(msg);
+            Message nachricht = new Message();
+            nachricht.msg = message.getText().toString();
+            oos.writeObject(nachricht);
             oos.flush();
         } catch (IOException e) {
             e.printStackTrace();
@@ -59,7 +77,7 @@ public class ChatMain extends AppCompatActivity {
             chat.scrollTo(0, 0);
     }
 
-    public void displayMessage(String msg){
+    public void displayMessage(String msg) {
         chat.append("\n" + msg);
     }
 

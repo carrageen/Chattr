@@ -13,6 +13,10 @@ ADDED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml:2:
 	android:versionCode
 		INJECTED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Android\.android\build-cache\025b01424f7e14033d8b3a68a7503650953ff13b\output\AndroidManifest.xml:25:5-20
