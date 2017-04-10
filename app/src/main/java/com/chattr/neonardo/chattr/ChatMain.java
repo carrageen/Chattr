@@ -31,9 +31,14 @@ public class ChatMain extends AppCompatActivity {
         chat.setMovementMethod(new ScrollingMovementMethod());
         message = (EditText) findViewById(R.id.message);
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 
+        /**
+         * TODO Müssen wir auf jeden Fall ändern. Nur eine Notlösung um den Networkshit im main
+         * Thread haben zu können weil AsycTask aids ist.
+        */
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
+
 
         try {
             Log.d("test", "TEST CONNECTION1111");
