@@ -32,7 +32,7 @@ public class ChatMain extends AppCompatActivity {
         message = (EditText) findViewById(R.id.message);
 
 
-        /**
+        /*
          * TODO Müssen wir auf jeden Fall ändern. Nur eine Notlösung um den Networkshit im main
          * Thread haben zu können weil AsycTask aids ist.
         */
