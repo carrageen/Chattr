@@ -2113,7 +2113,7 @@ containing a value of this type.
         public static final int always=0x7f0c001d;
         public static final int beginning=0x7f0c001a;
         public static final int bottom=0x7f0c0022;
-        public static final int button=0x7f0c0058;
+        public static final int button=0x7f0c0059;
         public static final int buttonPanel=0x7f0c002e;
         public static final int cancel_action=0x7f0c007b;
         public static final int chat=0x7f0c005a;
@@ -2217,7 +2217,7 @@ containing a value of this type.
         public static final int text2=0x7f0c008a;
         public static final int textSpacerNoButtons=0x7f0c0035;
         public static final int textSpacerNoTitle=0x7f0c0034;
-        public static final int textView=0x7f0c0059;
+        public static final int textView=0x7f0c0058;
         public static final int time=0x7f0c0082;
         public static final int title=0x7f0c002d;
         public static final int titleDividerNoCustom=0x7f0c003c;

@@ -73,7 +73,7 @@ ADDED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml:21
 		ADDED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml:21:24-70
 uses-sdk
 INJECTED from D:\Desktop\AndroidProjects\Chattr\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.0] C:\Android\.android\build-cache\0e7ccb84ffb03000c119c9e48c6f0020b4215710\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Android\.android\build-cache\60fce7bf805f303a1db44fd53a566998d931baa9\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v13:26.0.0-alpha1] C:\Android\.android\build-cache\1307ab34c4e28f5183ea9ac5fea5f69aa5825a40\output\AndroidManifest.xml:21:5-23:55
 MERGED from [com.android.support:mediarouter-v7:26.0.0-alpha1] C:\Android\.android\build-cache\b9e56879a4c2ec503fdea8736f10299f2c27c996\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Android\.android\build-cache\2fb36cda0927832d8c04c618299c7309bb75e88c\output\AndroidManifest.xml:21:5-23:78

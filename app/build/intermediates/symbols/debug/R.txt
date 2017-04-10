@@ -735,7 +735,7 @@ int id alertTitle 0x7f0c003b
 int id always 0x7f0c001d
 int id beginning 0x7f0c001a
 int id bottom 0x7f0c0022
-int id button 0x7f0c0058
+int id button 0x7f0c0059
 int id buttonPanel 0x7f0c002e
 int id cancel_action 0x7f0c007b
 int id chat 0x7f0c005a
@@ -839,7 +839,7 @@ int id text 0x7f0c008c
 int id text2 0x7f0c008a
 int id textSpacerNoButtons 0x7f0c0035
 int id textSpacerNoTitle 0x7f0c0034
-int id textView 0x7f0c0059
+int id textView 0x7f0c0058
 int id time 0x7f0c0082
 int id title 0x7f0c002d
 int id titleDividerNoCustom 0x7f0c003c

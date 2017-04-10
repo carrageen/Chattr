@@ -1,27 +1,27 @@
 [
     {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_vol_type_speaker_group_light.png",
-        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\drawable-xxhdpi-v4\\ic_vol_type_speaker_group_light.png"
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_mr_button_connected_15_dark.png",
         "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_15_dark.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_vol_type_speaker_group_light.png",
+        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\drawable-xxhdpi-v4\\ic_vol_type_speaker_group_light.png"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
@@ -60,12 +60,12 @@
         "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\drawable-xxhdpi-v4\\ic_mr_button_disabled_light.png"
     },
     {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_mr_button_connected_09_light.png",
         "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_09_light.png"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_mr_button_connecting_15_dark.png",
