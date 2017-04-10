@@ -21,7 +21,7 @@
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
     <string name="app_name">Chattr</string>
     <string name="backButtonTwice">Drücke erneut zurück zum verlassen.</string>
-    <string name="chat_connection">Du wirst jetzt mit einem Fremden verbunden. https://www.google.com/ </string>
+    <string name="chat_connection">Du wirst jetzt mit einem Fremden verbunden.</string>
     <string name="connection_established">Verbindung aufgebaut.</string>
     <string name="defaultMessage">Hey, wie gehts dir?</string>
     <string name="error_stream">Fehler bei der Erstellung von einem neuen Input/Output stream:  </string>

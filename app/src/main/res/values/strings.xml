@@ -6,7 +6,7 @@
     <string name="app_name">Chattr</string>
     <string name="start_chat">Match Me!</string>
     <string name="searching">Searching for strangers.</string>
-    <string name="chat_connection">You\'re now getting connected. https://www.google.com/ </string>
+    <string name="chat_connection">You\'re now getting connected.</string>
     <string name="you">You:&#160;</string>
     <string name="stranger">Stranger:&#160;</string>
     <string name="defaultMessage">Hey, how are you?</string>

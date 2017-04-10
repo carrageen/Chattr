@@ -5,7 +5,6 @@ import android.os.Handler;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -41,12 +40,9 @@ public class ChatMain extends AppCompatActivity {
 
 
         try {
-            Log.d("test", "TEST CONNECTION1111");
-            socket = new Socket("localhost", 4269);
-            Log.d("test", "TEST CONNECTION");
+            socket = new Socket("80.139.149.210", 4269);
             client = new Client(this);
             client.connect(socket);
-            Log.d("test", "TEST CONNECTION222222");
         } catch (
                 IOException e) {
             e.printStackTrace();
@@ -82,26 +78,26 @@ public class ChatMain extends AppCompatActivity {
 
 
     public void sendMessage(View v) {
-
-        new Thread() {
-            @Override
-            public void run() {
-                client.send(message.getText().toString());
-            }
-        }.start();
-
-
-        //chat.append("\n" + getString(R.string.you) + message.getText().toString());
-
-        final int scrollAmount = chat.getLayout().getLineTop(chat.getLineCount()) - chat.getHeight();
-        if (scrollAmount > 0)
-            chat.scrollTo(0, scrollAmount);
-        else
-            chat.scrollTo(0, 0);
+        if (!message.getText().toString().equals("")){
+            new Thread() {
+                @Override
+                public void run() {
+                    client.send(message.getText().toString());
+                    autoScroll();
+                }
+            }.start();
+        }
+        message.setText("");
     }
 
-    public void displayMessage(String msg) {
-        chat.append("\n" + msg);
+    public void displayMessage(final String msg) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                chat.append("\n" + msg);
+                autoScroll();
+            }
+        });
     }
 
     public void onBackPressed() {
@@ -120,5 +116,13 @@ public class ChatMain extends AppCompatActivity {
                 client.disconnect();
             }
         }, 2000);
+    }
+
+    public void autoScroll() {
+        final int scrollAmount = chat.getLayout().getLineTop(chat.getLineCount()) - chat.getHeight();
+        if (scrollAmount > 0)
+            chat.scrollTo(0, scrollAmount);
+        else
+            chat.scrollTo(0, 0);
     }
 }
