@@ -20,12 +20,12 @@
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_dialog.xml",

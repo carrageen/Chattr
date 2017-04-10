@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onMatchTap(View v) {
-        Toast myToast = Toast.makeText(getApplicationContext(), R.string.searching, Toast.LENGTH_LONG);
+        Toast myToast = Toast.makeText(getApplicationContext(), R.string.searching, Toast.LENGTH_SHORT);
         Intent intent = new Intent(MainActivity.this, ChatMain.class);
         myToast.show();
         startActivity(intent);
