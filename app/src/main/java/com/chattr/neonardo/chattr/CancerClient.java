@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
+import cancerApi.Message;
+
 public abstract class CancerClient {
     private ObjectOutputStream oos;
     private Listener listener;

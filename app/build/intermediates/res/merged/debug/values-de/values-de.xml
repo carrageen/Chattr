@@ -52,6 +52,4 @@
     <string name="send">Senden</string>
     <string name="start_chat">Verbinde mich!</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string name="stranger">Fremder: </string>
-    <string name="you">Du: </string>
 </resources>

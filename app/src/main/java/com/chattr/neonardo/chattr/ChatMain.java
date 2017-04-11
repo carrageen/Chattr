@@ -5,7 +5,10 @@ import android.os.Handler;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,6 +23,7 @@ public class ChatMain extends AppCompatActivity {
     boolean doubleBackToExitPressedOnce = false;
     Socket socket;
     Client client;
+    Button send;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,19 @@ public class ChatMain extends AppCompatActivity {
         chat = (TextView) findViewById(R.id.chat);
         chat.setMovementMethod(new ScrollingMovementMethod());
         message = (EditText) findViewById(R.id.message);
+        send = (Button) findViewById(R.id.send);
+
+        //Dazu da um mit Enter senden zu können.
+        message.setOnEditorActionListener(new EditText.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_SEND) {
+                    send.performClick();
+                    return true;
+                }
+                return false;
+            }
+        });
 
 
         /*
@@ -78,7 +95,7 @@ public class ChatMain extends AppCompatActivity {
 
 
     public void sendMessage(View v) {
-        if (!message.getText().toString().equals("")){
+        if (!message.getText().toString().equals("")) {
             new Thread() {
                 @Override
                 public void run() {
@@ -86,8 +103,8 @@ public class ChatMain extends AppCompatActivity {
                     autoScroll();
                 }
             }.start();
+            message.setText("");
         }
-        message.setText("");
     }
 
     public void displayMessage(final String msg) {

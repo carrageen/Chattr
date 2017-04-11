@@ -7,8 +7,6 @@
     <string name="start_chat">Verbinde mich!</string>
     <string name="searching">Suche nach Fremden.</string>
     <string name="chat_connection">Du wirst jetzt mit einem Fremden verbunden.</string>
-    <string name="you">Du:&#160;</string>
-    <string name="stranger">Fremder:&#160;</string>
     <string name="defaultMessage">Hey, wie gehts dir?</string>
     <string name="send">Senden</string>
     <string name="backButtonTwice">Drücke erneut zurück zum verlassen.</string>

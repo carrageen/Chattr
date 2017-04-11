@@ -4,11 +4,14 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.Socket;
 
+import cancerApi.Message;
+
 public class Listener implements Runnable{
 
     ObjectInputStream ois;
     Socket socket;
     CancerClient client;
+
     public Listener(Socket s, CancerClient c) throws IOException{
         ois = new ObjectInputStream(s.getInputStream());
         socket = s;

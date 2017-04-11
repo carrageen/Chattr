@@ -2313,18 +2313,18 @@ containing a value of this type.
         public static final int abc_activitychooserview_choose_application=0x7f070007;
         public static final int abc_capital_off=0x7f070008;
         public static final int abc_capital_on=0x7f070009;
-        public static final int abc_font_family_body_1_material=0x7f070036;
-        public static final int abc_font_family_body_2_material=0x7f070037;
-        public static final int abc_font_family_button_material=0x7f070038;
-        public static final int abc_font_family_caption_material=0x7f070039;
-        public static final int abc_font_family_display_1_material=0x7f07003a;
-        public static final int abc_font_family_display_2_material=0x7f07003b;
-        public static final int abc_font_family_display_3_material=0x7f07003c;
-        public static final int abc_font_family_display_4_material=0x7f07003d;
-        public static final int abc_font_family_headline_material=0x7f07003e;
-        public static final int abc_font_family_menu_material=0x7f07003f;
-        public static final int abc_font_family_subhead_material=0x7f070040;
-        public static final int abc_font_family_title_material=0x7f070041;
+        public static final int abc_font_family_body_1_material=0x7f070034;
+        public static final int abc_font_family_body_2_material=0x7f070035;
+        public static final int abc_font_family_button_material=0x7f070036;
+        public static final int abc_font_family_caption_material=0x7f070037;
+        public static final int abc_font_family_display_1_material=0x7f070038;
+        public static final int abc_font_family_display_2_material=0x7f070039;
+        public static final int abc_font_family_display_3_material=0x7f07003a;
+        public static final int abc_font_family_display_4_material=0x7f07003b;
+        public static final int abc_font_family_headline_material=0x7f07003c;
+        public static final int abc_font_family_menu_material=0x7f07003d;
+        public static final int abc_font_family_subhead_material=0x7f07003e;
+        public static final int abc_font_family_title_material=0x7f07003f;
         public static final int abc_search_hint=0x7f07000a;
         public static final int abc_searchview_description_clear=0x7f07000b;
         public static final int abc_searchview_description_query=0x7f07000c;
@@ -2367,8 +2367,6 @@ containing a value of this type.
         public static final int send=0x7f070032;
         public static final int start_chat=0x7f070033;
         public static final int status_bar_notification_info_overflow=0x7f070029;
-        public static final int stranger=0x7f070034;
-        public static final int you=0x7f070035;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09009f;

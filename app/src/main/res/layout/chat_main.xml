@@ -33,6 +33,7 @@
             android:layout_weight="0.99"
             android:ems="10"
             android:inputType="text"
+            android:imeOptions="actionSend"
             android:text="@string/defaultMessage" />
 
         <Button
