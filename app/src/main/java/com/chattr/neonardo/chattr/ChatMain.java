@@ -7,23 +7,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.Socket;
+import java.net.URL;
+
 
 public class ChatMain extends AppCompatActivity {
 
-    TextView chat;
-    EditText message;
-    boolean doubleBackToExitPressedOnce = false;
-    Socket socket;
-    Client client;
-    Button send;
+    private TextView chat;
+    private EditText message;
+    private boolean doubleBackToExitPressedOnce = false;
+    private Client client;
+    private Button send;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +55,10 @@ public class ChatMain extends AppCompatActivity {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-
         try {
-            socket = new Socket("80.139.149.210", 4269);
+            InetAddress host = InetAddress.getByName(new URL("http://niggafaggot.ddnsking.com/").getHost());
+            Socket socket = new Socket(host.getHostAddress(), 4269);
+            //Socket socket = new Socket("192.168.2.114", 4269);
             client = new Client(this);
             client.connect(socket);
         } catch (
@@ -88,7 +90,6 @@ public class ChatMain extends AppCompatActivity {
 
             }
         }.execute(this);    */
-
 
     }
 

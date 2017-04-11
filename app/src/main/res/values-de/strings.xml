@@ -11,6 +11,5 @@
     <string name="send">Senden</string>
     <string name="backButtonTwice">Drücke erneut zurück zum verlassen.</string>
     <string name="intro">&appname; ist eine App um mit zufälligen Fremden in deiner Gegend zu schreiben.</string>
-    <string name="connection_established">Verbindung aufgebaut.</string>
-    <string name="error_stream">Fehler bei der Erstellung von einem neuen Input/Output stream: &#160;</string>
+    <string name="logo">logo</string>
 </resources>

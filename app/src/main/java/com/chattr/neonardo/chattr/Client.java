@@ -2,7 +2,7 @@ package com.chattr.neonardo.chattr;
 
 public class Client extends CancerClient {
 
-    ChatMain cm;
+    private final ChatMain cm;
     public Client(ChatMain cm) {
         super();
         this.cm = cm;

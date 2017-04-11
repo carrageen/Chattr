@@ -39,9 +39,9 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#f44336</color>
-    <color name="colorPrimary">#d32f2f</color>
-    <color name="colorPrimaryDark">#b71c1c</color>
+    <color name="colorAccent">#212121</color>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -374,10 +374,9 @@
     <string name="app_name">Chattr</string>
     <string name="backButtonTwice">Press back again to leave.</string>
     <string name="chat_connection">You\'re now getting connected.</string>
-    <string name="connection_established">Connection established </string>
     <string name="defaultMessage">Hey, how are you?</string>
-    <string name="error_stream">Exception creating new Input/Output streams: </string>
     <string name="intro">Chattr is an app which lets you chat and communicate with random strangers in your environment.</string>
+    <string name="logo">logo</string>
     <string name="mr_button_content_description">Cast button</string>
     <string name="mr_cast_button_connected">Cast button. Connected</string>
     <string name="mr_cast_button_connecting">Cast button. Connecting</string>

@@ -11,6 +11,5 @@
     <string name="send">Send</string>
     <string name="backButtonTwice">Press back again to leave.</string>
     <string name="intro">&appname; is an app which lets you chat and communicate with random strangers in your environment.</string>
-    <string name="connection_established">Connection established&#160;</string>
-    <string name="error_stream">Exception creating new Input/Output streams:&#160;</string>
+    <string name="logo">logo</string>
 </resources>

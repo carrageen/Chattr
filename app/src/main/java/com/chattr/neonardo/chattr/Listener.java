@@ -8,9 +8,9 @@ import cancerApi.Message;
 
 public class Listener implements Runnable{
 
-    ObjectInputStream ois;
-    Socket socket;
-    CancerClient client;
+    private ObjectInputStream ois;
+    private Socket socket;
+    private CancerClient client;
 
     public Listener(Socket s, CancerClient c) throws IOException{
         ois = new ObjectInputStream(s.getInputStream());
@@ -24,9 +24,7 @@ public class Listener implements Runnable{
             try {
                 String msg = ((Message) ois.readObject()).text;
                 client.onMessageIncoming(msg);
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (ClassNotFoundException e) {
+            } catch (IOException | ClassNotFoundException e) {
                 e.printStackTrace();
             }
         }

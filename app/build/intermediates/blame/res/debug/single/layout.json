@@ -12,8 +12,16 @@
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -26,74 +34,6 @@
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_dialog.xml",
-        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_chooser_dialog.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
-        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_volume_control.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_list_item.xml",
-        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_chooser_list_item.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_main.xml",
-        "source": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\layout\\chat_main.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_playback_control.xml",
-        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_playback_control.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -120,12 +60,16 @@
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_dialog.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_chooser_dialog.xml"
     },
     {
-        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_template_custom_big.xml"
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -134,6 +78,10 @@
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_volume_control.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
@@ -148,16 +96,40 @@
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_list_item.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_chooser_list_item.xml"
+    },
+    {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_main.xml",
+        "source": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\layout\\chat_main.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_playback_control.xml",
+        "source": "C:\\Android\\.android\\build-cache\\b9e56879a4c2ec503fdea8736f10299f2c27c996\\output\\res\\layout\\mr_playback_control.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -176,8 +148,24 @@
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -190,5 +178,13 @@
     {
         "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Android\\.android\\build-cache\\2fb36cda0927832d8c04c618299c7309bb75e88c\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     }
 ]

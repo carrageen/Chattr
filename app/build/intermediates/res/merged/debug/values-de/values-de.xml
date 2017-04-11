@@ -22,10 +22,9 @@
     <string name="app_name">Chattr</string>
     <string name="backButtonTwice">Drücke erneut zurück zum verlassen.</string>
     <string name="chat_connection">Du wirst jetzt mit einem Fremden verbunden.</string>
-    <string name="connection_established">Verbindung aufgebaut.</string>
     <string name="defaultMessage">Hey, wie gehts dir?</string>
-    <string name="error_stream">Fehler bei der Erstellung von einem neuen Input/Output stream:  </string>
     <string name="intro">Chattr ist eine App um mit zufälligen Fremden in deiner Gegend zu schreiben.</string>
+    <string name="logo">logo</string>
     <string msgid="3698378085901466129" name="mr_button_content_description">"Cast-Symbol"</string>
     <string msgid="5088427771788648085" name="mr_cast_button_connected">"Streaming-Schaltfläche. Verbunden"</string>
     <string msgid="2187642765091873834" name="mr_cast_button_connecting">"Streaming-Schaltfläche. Verbindung wird hergestellt"</string>
