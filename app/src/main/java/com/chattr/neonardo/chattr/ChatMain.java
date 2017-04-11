@@ -36,10 +36,10 @@ public class ChatMain extends AppCompatActivity {
         send = (Button) findViewById(R.id.send);
 
         //Dazu da um mit Enter senden zu können.
-        message.setOnEditorActionListener(new EditText.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if (actionId == EditorInfo.IME_ACTION_SEND) {
+        message.setOnKeyListener(new View.OnKeyListener() {
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
+                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
                     send.performClick();
                     return true;
                 }
