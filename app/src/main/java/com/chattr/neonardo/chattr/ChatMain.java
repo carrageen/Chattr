@@ -38,8 +38,7 @@ public class ChatMain extends AppCompatActivity {
         //Dazu da um mit Enter senden zu können.
         message.setOnKeyListener(new View.OnKeyListener() {
             public boolean onKey(View v, int keyCode, KeyEvent event) {
-                if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
-                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                if (keyCode == KeyEvent.KEYCODE_ENTER) {
                     send.performClick();
                     return true;
                 }
