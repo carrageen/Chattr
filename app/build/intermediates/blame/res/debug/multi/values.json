@@ -498,14 +498,7 @@
                     "endOffset": 2834
                 },
                 "from": {
-                    "file": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 46,
-                        "endOffset": 99
-                    }
+                    "file": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -517,14 +510,7 @@
                     "endOffset": 2885
                 },
                 "from": {
-                    "file": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 105,
-                        "endColumn": 50,
-                        "endOffset": 151
-                    }
+                    "file": "D:\\Desktop\\AndroidProjects\\Chattr\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {

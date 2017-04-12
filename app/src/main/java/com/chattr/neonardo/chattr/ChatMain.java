@@ -58,7 +58,6 @@ public class ChatMain extends AppCompatActivity {
         try {
             InetAddress host = InetAddress.getByName(new URL("http://niggafaggot.ddnsking.com/").getHost());
             Socket socket = new Socket(host.getHostAddress(), 4269);
-            //Socket socket = new Socket("192.168.2.114", 4269);
             client = new Client(this);
             client.connect(socket);
         } catch (
